@@ -73,3 +73,12 @@ iptables -t nat -A POSTROUTING -s 192.168.0.0/24 -o eth1 -jMASQUERADE
 [root@kuro ~]#chkconfig iptables on 
 至此，pptp服务端安装结束。 
 在PC端的“网络和共享中心”，设置新的连接或网络，即可访问VPN。 
+#last查看vpn在线用户
+last | grep still | grep ppp
+#2. 查看在线用户别名
+#如果你觉得繁琐，你可以将它写到环境变量中.
+cat /etc/profile | grep vpn
+
+alias ttlsavpn='last | grep still | grep ppp'
+#使用ttlsavpn命令
+ttlsavpn
