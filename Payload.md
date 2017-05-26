@@ -18,3 +18,7 @@
 ./theHarvester.py -d wooyun.org -l 500 -b baidu -v 
 ```
 > 语法：theharvester -d 域名|公司名 -b 搜索来源（google，bing，pgp，linkedin等） 
+### 手工检测端口是否开放
+```Bash
+ telnet 127.0.0.1 21
+```
