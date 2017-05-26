@@ -13,7 +13,7 @@
 ```
 
 ## 信息收集
-### The harvester
+### The harvester   搜索引擎查找邮箱及子域名
 ```bash
 ./theHarvester.py -d wooyun.org -l 500 -b baidu -v 
 ```
