@@ -14,6 +14,7 @@
 
 ## 信息收集
 ### The harvester   搜索引擎查找邮箱及子域名
-```bash
+```shell
 ./theHarvester.py -d wooyun.org -l 500 -b baidu -v 
 ```
+    theharvester -d 域名|公司名 -b 搜索来源（google，bing，pgp，linkedin等） 
