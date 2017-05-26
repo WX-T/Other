@@ -17,4 +17,4 @@
 ```shell
 ./theHarvester.py -d wooyun.org -l 500 -b baidu -v 
 ```
-    theharvester -d 域名|公司名 -b 搜索来源（google，bing，pgp，linkedin等） 
+> 语法：theharvester -d 域名|公司名 -b 搜索来源（google，bing，pgp，linkedin等） 
