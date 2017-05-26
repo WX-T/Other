@@ -11,3 +11,9 @@
 ```sql
 ' and if((1=2),1,(select 1 union select 2))#
 ```
+
+## 信息收集
+###The harvester
+```bash
+./theHarvester.py -d wooyun.org -l 500 -b baidu -v 
+```
